@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testBlog-个人博客</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<!--头部-->
+<header class="header">
+    <div class="navbar">
+        <h1 class="logo">
+            <a href="#">testBlog博客</a>
+        </h1>
+        <ul class="nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">前端</a>
+                <ul style="--list: 3;"> <!--定义css变量 用“--”表示-->
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">js</a></li>
+                </ul>
+            </li>
+            <li><a href="#">程序</a>
+                <ul style="--list: 3;">
+                    <li><a href="#">php</a></li>
+                    <li><a href="#">mysql</a></li>
+                    <li><a href="#">server</a></li>
+                </ul>
+            </li>
+            <li><a href="#">生活</a></li>
+            <li><a href="#">娱乐</a></li>
+            <li><a href="#">关于</a>
+                <ul style="--list: 3;">
+                    <li><a href="#">留言联系</a></li>
+                    <li><a href="#">关于作者</a></li>
+                    <li><a href="#">官方社区</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="top_line"></div>
+            <div class="mid_line"></div>
+            <div class="bot_line"></div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="输入你要找的内容">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+<!--内容-->
+<div class="container">
+    <!--  轮播横幅  -->
+    <div class="banner" >
+        <div class="banner-nav">
+            <div class="banner-content"><img src="IMG/banner01.jpg" alt=""></div>
+            <div class="banner-content"><img src="IMG/banner02.jpg" alt=""></div>
+            <div class="banner-content"><img src="IMG/banner03.jpg" alt=""></div>
+        </div>
+        <div class="prev pointer"> < </div>
+        <div class="next pointer"> > </div>
+        <ul class="banner-mid">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!--  资源与侧边栏  -->
+    <div class="content-wrap">
+        <div class="content">
+            <!--推荐内容-->
+            <div class="recommend">
+                <h2 class="title">
+                    特别推荐
+                </h2>
+                <ul>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <!--左侧-->
+                        <img src="IMG/recommend01.jpg" class="left" />
+                        <!--右侧-->
+                        <div class="right">
+                            <h3>推荐文章标题</h3>
+                            <p class="muted">
+                                推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要 推荐文章内容摘要
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--节选-->
+            <h2 class="title">
+                最新发布
+            </h2>
+
+            <!--文章容器-->
+            <div class="article"></div>
+
+
+            <article class="excerpt" style="display: none;">
+                <div class="pic">
+                    <a href="#">
+                        <img src="IMG/excerpt01.jpg"/>
+                    </a>
+                </div>
+                <div style="padding:0 20px">
+                    <h2>
+                        <a href="#">最新发布文章的标题</a>
+                    </h2>
+                    <p class="note">
+                        最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容。
+                    </p>
+                    <p>
+                        <span class="writer muted">发布作者</span>
+                        <span class="date muted">2021-03-12</span>
+                        <span class="viewed muted">9.2k</span>
+                    </p>
+                </div>
+            </article>
+        </div>
+        <!--侧边栏-->
+        <aside class="sidebar">
+            <div class="tag shadow">
+                <h3>热门标签</h3>
+                <div class="tag-list">
+                    <ul>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">GOLANG</a></li>
+                        <li><a href="#">JAVA</a></li>
+                        <li><a href="#">JS</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">生活</a></li>
+                        <li><a href="#">娱乐</a></li>
+                        <li><a href="#">摄影</a></li>
+                        <li><a href="#">日常</a></li>
+                        <li><a href="#">英雄联盟永远滴神</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="side-article shadow">
+                <h3>推荐文章</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="IMG/side01.jpg"/>
+                            <div>
+                                <span>推荐文章标题推荐文章标题推荐文章标题推荐文章标题</span><br>
+                                <span class="muted">2021-03-12</span>
+                                <span class="muted">233次阅读</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="IMG/side01.jpg"/>
+                            <div>
+                                <span>推荐文章标题</span><br>
+                                <span class="muted">2021-03-12</span>
+                                <span class="muted">233次阅读</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="IMG/side01.jpg"/>
+                            <div>
+                                <span>推荐文章标题</span><br>
+                                <span class="muted">2021-03-12</span>
+                                <span class="muted">233次阅读</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="IMG/side01.jpg"/>
+                            <div>
+                                <span>推荐文章标题</span><br>
+                                <span class="muted">2021-03-12</span>
+                                <span class="muted">233次阅读</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="IMG/side01.jpg"/>
+                            <div>
+                                <span>推荐文章标题</span><br>
+                                <span class="muted">2021-03-12</span>
+                                <span class="muted">233次阅读</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="comment shadow">
+                <h3>最新评论</h3>
+                <ul>
+                    <li>
+                        <a href="#">文章标题</a>
+                        <p>网友评论：芜湖起飞哈哈哈哈哈<img src="IMG/emoji01.gif"/></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="sup shadow">
+                <p>赞助一下吧</p>
+                <div>
+                    <p><a href="#">支持一下作者</a></p>
+                    <p class="muted">
+                        请留下赞助人姓名和联系人方式，如需帮助，我会优先解决您的问题！
+                    </p>
+                    <img src="IMG/Sup.png" style="height: 250px; width: 250px;"/>
+                </div>
+            </div>
+            <div class="share shadow">
+                <h3>分享网站</h3>
+                <div>
+                    <a href="###" class="muted weixin"><img src="IMG/wx.png"/>微信</a>
+                    <a href="#" class="muted"><img src="IMG/qq.png"/>QQ</a>
+                    <a href="#" class="muted"><img src="IMG/qz.png"/>空间</a>
+                    <a href="#" class="muted"><img src="IMG/sina.png"/>微博</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+<!--友情链接-->
+<div class="friend">
+    <h2>友情链接</h2>
+    <ul>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+        <li><a href="#">广告位招租QAQ</a></li>
+    </ul>
+</div>
+<!--底部-->
+<footer class="footer">
+    <div class="footer_inner">
+        <div>
+            <a href="#">Powered By 3S</a>
+            | 请在此处编写博客内容简介吹比^ ^
+        </div>
+        <div>
+            <a href="#">站长统计</a>
+        </div>
+    </div>
+</footer>
+<!--固定按钮-->
+<div class="btn">
+    <div class="totop"></div>
+</div>
+
+
+
+
+
+
+
+
+<!--微信二维码-->
+<div class="share_wx">
+    <div class="content">
+        <h2 class="close">关闭</h2>
+        <div style="text-align: center">
+            <img src="IMG/Sup.png" style="max-width:80%;"/>
+        </div>
+        <p style="text-align:center;font-size:16px">用微信“扫一扫”</p>
+    </div>
+</div>
+
+
+<!--回到顶部-->
+<div class="to_top" onclick="toTop()">↑</div>
+
+
+<!--<button id="show">按钮</button>-->
+
+<!--侧滑-->
+<!--<div class="solid">-->
+<!--    <p>内容</p>-->
+<!--</div>-->
+
+<script src="JS/index.js"></script>
+<script>
+    // 侧移
+    // let but = document.querySelector('#show');
+    // let tip = document.querySelector('.solid');
+    // but.onclick = () => {
+    //     let n = tip.className;
+    //     console.log(n)
+    //     if(n.indexOf('act') > -1) {
+    //         tip.className = 'solid'
+    //     } else {
+    //         tip.className = 'solid act'
+    //     }
+    // }
+
+
+    //回到顶部
+    function toTop() {
+        let top = document.documentElement.scrollTop;
+        let timer = setInterval(() => {
+            let speed = (0 - top) / 3;
+            speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+            top = top + speed;
+            if (top <= 0) clearInterval(timer);
+            window.scrollTo(0, top);
+        }, 30);
+    }
+
+
+    //页面的全部资源加载完后才会执行 包括 图片 视频等
+    window.addEventListener('load',function (){
+        // console.log(1)
+        let str = `
+            <article class="excerpt">
+                <div class="pic">
+                    <a href="#">
+                        <img src="IMG/excerpt01.jpg"/>
+                    </a>
+                </div>
+                <div class="right" style="padding:0 20px">
+                    <h2>
+                        <a href="#">最新发布文章的标题</a>
+                    </h2>
+                    <p class="note">
+                        最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容，最新发布文章的内容。
+                    </p>
+                    <p>
+                        <span class="writer muted">发布作者</span>
+                        <span class="date muted">2021-03-12</span>
+                        <span class="viewed muted">9.2k</span>
+                    </p>
+                </div>
+            </article>
+        `;
+        let str_com = `
+            <li>
+                <a href="#">文章标题</a>
+                <p>网友评论：芜湖起飞哈哈哈哈哈<img src="IMG/emoji01.gif"/></p>
+            </li>
+        `;
+        let n = '', m ='';
+        for(let i = 0; i < 10; i++) {
+            n += str;
+            m += str_com;
+            // console.log(i)
+        }
+        let comment = document.querySelector('.comment>ul');
+        comment.innerHTML = m;
+        let article = document.querySelector('.article');
+        article.innerHTML = n;
+    }, false)
+
+</script>
+</body>
+</html>
